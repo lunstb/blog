@@ -1,0 +1,30 @@
+body {
+  font-family: ui-monospace, Menlo, monospace;
+  font-size: 14px;
+  line-height: 1.7;
+  color: #111;
+  background: #fff;
+  max-width: 42rem;
+  margin: 0 auto;
+  padding: 2.5rem 1.25rem;
+}
+
+header { margin-bottom: 2rem; }
+header .name { font-weight: 700; font-size: 16px; }
+header .name a { color: #111; text-decoration: none; }
+header .subtitle { color: #666; }
+header .subtitle a { color: #666; }
+
+a { color: #111; }
+
+.post-list { list-style: none; padding: 0; margin: 0; }
+.post-list li { margin-bottom: 0.4rem; }
+.post-list .date { color: #888; margin-right: 0.5rem; }
+
+article h1 { font-size: 18px; margin-bottom: 0.25rem; }
+.post-date { color: #888; margin-top: 0; }
+article img { max-width: 100%; }
+pre { overflow-x: auto; background: #f6f6f6; padding: 0.75rem; }
+code { background: #f6f6f6; }
+blockquote { border-left: 3px solid #ddd; margin-left: 0; padding-left: 1rem; color: #444; }
+.back { margin-top: 2rem; }

@@ -1,0 +1,11 @@
+title: Berke Lunstad
+url: https://blog.berkelunstad.com
+permalink: /:title/
+plugins:
+  - jekyll-feed
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post

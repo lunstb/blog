@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% if page.title %}{{ page.title }} · {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
+  <link rel="stylesheet" href="{{ '/assets/style.css' | relative_url }}">
+  {% feed_meta %}
+</head>
+<body>
+  <header>
+    <div class="name"><a href="{{ '/' | relative_url }}">Berke Lunstad</a></div>
+    <div class="subtitle">a blog · <a href="https://www.linkedin.com/in/berkelunstad/">linkedin</a> · <a href="{{ '/feed.xml' | relative_url }}">rss</a></div>
+  </header>
+  <main>
+    {{ content }}
+  </main>
+</body>
+</html>
