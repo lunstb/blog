@@ -38,7 +38,7 @@ Ultra-minimal "just text" direction (selected from mockups):
 
 - Monospace font stack (`ui-monospace, Menlo, monospace`), dark text on white.
 - **Header:** "Berke Lunstad" bold, muted subtitle, small LinkedIn link on the
-  header line.
+  header line (https://www.linkedin.com/in/berkelunstad/).
 - **Homepage:** list of posts, each `YYYY-MM-DD  <underlined title>`, newest
   first. Nothing else.
 - **Post page:** title, date, body, back link to home.
