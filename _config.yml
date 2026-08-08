@@ -3,6 +3,9 @@ url: https://blog.berkelunstad.com
 permalink: /:title/
 plugins:
   - jekyll-feed
+exclude:
+  - docs
+  - README.md
 defaults:
   - scope:
       path: ""
